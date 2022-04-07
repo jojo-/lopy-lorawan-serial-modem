@@ -13,6 +13,7 @@ Using a LoPy to transmit data via LoRaWAN received over UART
   - https://docs.pycom.io/gettingstarted/registration/lora/ttn/
   - https://docs.pycom.io/tutorials/networks/lora/lorawan-otaa/
 - Update the `config.py` file with the TTI credentials: `APP_KEY` and `APP_EUI`
+- Upload the code on the LoPy
 - When powered on, if 
   - a green light appears: the LoPy is connected
   - a red light appears: the LoPy is not connected
