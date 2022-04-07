@@ -47,5 +47,5 @@ udevadm trigger
 ```
 import serial
 ser = serial.Serial('/dev/ttyTHS1', 115200, timeout=0.1)
-ser.write('coucou'.encode('utf-8'))
+ser.write('Beer'.encode('utf-8'))
 ```
